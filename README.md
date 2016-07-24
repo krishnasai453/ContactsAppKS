@@ -11,9 +11,9 @@ basic node js structure to start an app
 - node server.js
 
 
-	open browser and make a request-- 
-				Request:
- 				http://localhost:8099/api/contact
+open browser and make a request-- 
+	Request:
+ 	http://localhost:8099/api/contact
 Response:
 	[
 	{
