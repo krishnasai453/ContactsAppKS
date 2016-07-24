@@ -11,28 +11,29 @@ basic node js structure to start an app
 - node server.js
 
 
-open browser and make a request-- 
-	Request:
- 	http://localhost:8099/api/contact
-Response:
-	[
-	{
-	"_id": "57949468d8a5353c0362bdef",
-	"__v": 0,
-	"email": "sai@sai.com",
-	"phone": "",
-	"lastName": "said",
-	"firstName": "sai"
-	},
-	{
-	"_id": "579531e729574454274d1522",
-	"__v": 0,
-	"email": "krisi@dkei.com",
-	"phone": "5105567133",
-	"lastName": "said",
-	"firstName": "sai"
-	},
-	]
+	open browser and make a request-- 
+		Request:
+	 	http://localhost:8099/api/contact
+ 	
+	Response:
+		[
+		{
+		"_id": "57949468d8a5353c0362bdef",
+		"__v": 0,
+		"email": "sai@sai.com",
+		"phone": "",
+		"lastName": "said",
+		"firstName": "sai"
+		},
+		{
+		"_id": "579531e729574454274d1522",
+		"__v": 0,
+		"email": "krisi@dkei.com",
+		"phone": "5105567133",
+		"lastName": "said",
+		"firstName": "sai"
+		},
+		]
 
 
 
