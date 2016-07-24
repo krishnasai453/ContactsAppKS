@@ -4,10 +4,10 @@ basic node js structure to start an app
 ## Basic Structure for a normal GET request
 
 
-- git git@github.com:RajuC/basic-nodejs-structure.git
-- cd basic-nodejs-structure/
+- git clone https://github.com/krishnasai453/ContactsAppKS.git
+- cd ContactsAppKS
 - npm install
-- npm install chance --save-dev
+- npm install chance --save-dev (not needed)
 - node server.js
 
 
@@ -15,16 +15,41 @@ basic node js structure to start an app
 				Request:
  				http://localhost:8099/api/contact
 				Response:
- 				[{"firstName":"Harriet","lastName":"Pena","zip":"11738","email":"ro@conti.lc"},{"firstName":"Dennis","lastName":"Barrett","zip":"53991","email":"ufe@ja.jo"},{"firstName":"Lydia","lastName":"Coleman","zip":"27718","email":"bijpiw@vewle.kg"},{"firstName":"Katherine","lastName":"Turner","zip":"63622","email":"nosesuj@upokel.ke"} ,{"firstName":"Darrell","lastName":"Sandoval","zip":"35550","email":"sessu@wooszo.dj"},{"firstName":"Janie","lastName":"Strickland","zip":"28259","email":"sodiwah@ami.bt"},{"firstName":"Francisco","lastName":"Gregory","zip":"22422","email":"rawhifgov@asuleig.ad"},{"firstName":"Ina","lastName":"Wong","zip":"84156","email":"robreluko@ajedus.rs"},{"firstName":"Willie","lastName":"Phelps","zip":"16154","email":"tohahe@ucmo.nr"},{"firstName":"Isabelle","lastName":"Hayes","zip":"92315","email":"fejac@avpufa.pk"}]
+				 [
+				  {
+				    "_id": "57949468d8a5353c0362bdef",
+				    "__v": 0,
+				    "email": "sai@sai.com",
+				    "phone": "",
+				    "lastName": "said",
+				    "firstName": "sai"
+				  },
+				  {
+				    "_id": "579531e729574454274d1522",
+				    "__v": 0,
+				    "email": "krisi@dkei.com",
+				    "phone": "5105567133",
+				    "lastName": "said",
+				    "firstName": "sai"
+				  },
+				  {
+				    "_id": "579531fc29574454274d1523",
+				    "__v": 0,
+				    "email": "uji@jiu.com",
+				    "phone": "9098789098",
+				    "lastName": "mane",
+				    "firstName": "sade"
+				  }
+				]
 
 
 
 	send a post request and you will response {
-	  "firstName": "rajuccc",
-	  "lastName": "chitti",
-	  "zip": "95112",
-	  "email.com": "raju@gmail.com",
-	  "id": "59cc0c06-a189-514c-ba6e-84c9d9b75e68"
+	  "firstName": "krishna",
+	  "lastName": "sai",
+	  "phone": "9511296043",
+	  "email.com": "krishnasai@gmail.com",
+	 
 }
 
 
