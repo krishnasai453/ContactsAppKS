@@ -96,6 +96,23 @@ module.exports.getContactByNum = function(req, res)
         
     })
 
+}
+
+module.exports.getContactById = function (req,res) {
+    var contactID = req.params.contactId;
+    contactService.findContactById(contactID, function(findContact) {
+        if(!findContact)
+        {
+           throw err;
+            res.status(400)
+                .send({message: 'Error:: contact not found'});
+        }
+        else
+        {
+            res.status(200)
+                .json(findContact);
+        }
+    });
 
 }
 

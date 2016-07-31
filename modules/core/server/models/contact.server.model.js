@@ -7,6 +7,7 @@ var mongoose = require('mongoose');
     //mongoose.connect("mongodb://localhost/news");
 require("../services/contact.server.service");
 require("../controllers/core.server.controller");
+require("../controllers/main.server.controller");
 var Schema = mongoose.Schema; //function constructor
 var validator = require('validator');
 
@@ -54,6 +55,15 @@ var ContactSchema = new Schema({
         unique: true,
         lowercase: true,
         validate: [validateEmailStrategy,'Please enter valid email id' ]
+
+    },
+    city:{
+        type: String,
+        default: '',
+        trim: true,
+        unique: true,
+        lowercase: true,
+        validate: [validateFieldStrategy,'Please enter valid city ' ]
 
     }
 
